@@ -8,8 +8,10 @@
 }
 
 #header{
-    background-color: rgb(217, 15, 15);
+    background-color: rgb(68, 241, 77);
     width: 1530px; height:12%;
+    background-size: cover;
+    border-bottom: 2px dotted black;
 }
 #headerlist{
     display:flex;
@@ -19,34 +21,56 @@
     gap:40px;
     align-item:center;
     color:white;
-    
 }
 #img1{
-    width: 100px;height:auto ;
-    margin-top: 7px;   
+    width: 400px;height:70px ;
+    margin-top: 7px;  
+    box-shadow: 5px 5px 5px #928b8b; 
 }
 #content{
     width: 1530px;; 
-    height:500px;
-    background-color:rgb(216, 210, 210);
+    height:550px;
+    background-color:rgb(237, 235, 235);
 }
 
 #left{
-    width: 510px; height:500px;
+    width: 506px; height:550px;
     float:left;
     font-size: 18px;
     background-image: url(#);
     background-size: cover;
-    border-left:2px solid black;
+   /* border-left:2px solid black;
     border-right:2px solid black;
     border-bottom:2px solid black;
-    border-top:2px solid black;
+    border-top:2px solid black;*/
+    box-shadow: inset 5px 5px 5px #d17878;
 }
 #center{
-    width: 510px; height:500px;
+    width: 508px; height:550px;
     float:left;
+   /* border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-top:2px solid black;*/
+    box-shadow: inset 1px 1px 1px #e1e66b;
 }
 #right{
-    width: 510px; height:500px;
+    width: 506px; height:550px;
     float:right;
+   /* border-left:2px solid black;
+    border-right:2px solid black;   
+    border-bottom:2px solid black;
+    border-top:2px solid black;*/
+    box-shadow: inset 5px 5px 5px #e88585;
+}
+#button1{
+    box-shadow: inset 2px 2px 2px 2px #acacac;
+    text-decoration: dotted;
+}
+
+#buttom{
+    width: 1530px; height:80px;
+    background-color: rgb(68, 241, 77);
+    border-top: 2px dotted black;
+    box-shadow: inset 5px 5px 5px #928b8b;
 }
