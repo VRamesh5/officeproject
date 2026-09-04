@@ -1,0 +1,52 @@
+
+
+#main{
+    background-color:aquamarine;
+    width: 1530px; height:700px;
+    padding:0px;
+    margin:0px;
+}
+
+#header{
+    background-color: rgb(217, 15, 15);
+    width: 1530px; height:12%;
+}
+#headerlist{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    gap:40px;
+    align-item:center;
+    color:white;
+    position:fixed
+}
+#img1{
+    width: 100px;height:auto ;
+    margin-top: 7px;   
+}
+#content{
+    width: 1530px;; 
+    height:500px;
+    background-color:rgb(216, 210, 210);
+}
+
+#left{
+    width: 510px; height:500px;
+    float:left;
+    font-size: 18px;
+    background-image: url(#);
+    background-size: cover;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+#center{
+    width: 510px; height:500px;
+    float:left;
+}
+#right{
+    width: 510px; height:500px;
+    float:right;
+}
